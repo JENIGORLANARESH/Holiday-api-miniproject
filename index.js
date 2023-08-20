@@ -7,7 +7,7 @@ const port = 3000;
 
 const API_URL = "https://holidays.abstractapi.com/v1/";
 
-const yourBearerToken = "cc03843490aa4e579191644593b4a1f5";
+const yourBearerToken = "";//your key
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
